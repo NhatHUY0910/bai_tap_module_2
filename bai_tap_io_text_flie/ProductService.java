@@ -39,8 +39,6 @@ public class ProductService {
         } while (choice != 4);
     }
 
-
-
     private static void addProduct(Scanner scanner) {
         System.out.println("Nhập mã ID sản phẩm:");
         String productID = scanner.next();
